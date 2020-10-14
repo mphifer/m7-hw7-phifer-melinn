@@ -8,7 +8,7 @@ xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var apiResult = JSON.parse(this.responseText);
 
-  //print city name at the end of the header text
+  //print city name in header text
         function showCity() {
           var cityName = document.createElement('h1');
           headerCity.appendChild(cityName);
