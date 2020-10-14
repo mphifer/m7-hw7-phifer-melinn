@@ -8,3 +8,23 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+body {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #daedf4;
+}
+
+#container {
+	text-align:center;
+}
+
+h1 {
+	font-size: 2.2rem;
+	padding-top: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 1.5rem;
+	padding-top: 1%;
+}
