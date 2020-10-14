@@ -20,11 +20,28 @@ body {
 h1 {
 	font-size: 2.2rem;
 	padding-top: 30px;
+	padding-bottom: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
+	background-color: #ffffed;
 }
 
 p {
 	font-size: 1.5rem;
 	padding-top: 1%;
+	padding-bottom: 10px;
+}
+
+#weather {
+	font-weight: bold;
+}
+
+img {
+	width: 100%:
+	padding: 1%;
+}
+
+footer {
+	background-color: #ffe9ec;
+	padding-bottom: 20px;
 }
